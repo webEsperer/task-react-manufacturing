@@ -19,7 +19,8 @@
   "scripts": {
     "start": "concurrently \"npm run react\" \"npm run server\"",
     "react": "react-scripts start",
-    "server": "node server.js"
+    "server": "node server.js",
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
